@@ -24,15 +24,16 @@ sudoers_custom_config: ''
 #   # Allow users in admin group to use sudo with no password.
 #   %admin ALL=(ALL) NOPASSWD: ALL
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+#dotfiles_repo: git@github.com:n8urton/dotfiles.git
 dotfiles_repo_accept_hostkey: true
-dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
+#dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
 dotfiles_files:
   - .zshrc
-  - .gitignore
-  - .inputrc
+#  - .gitignore
+#  - .inputrc
   - .osx
-  - .vimrc
+#  - .vimrc
+  - .nanorc
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
